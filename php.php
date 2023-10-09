@@ -1,6 +1,6 @@
 <?php
 if (isset($_POST['submit'])) {
-    $to = ''; // Замените на ваш электронный адрес
+    $to = 'rbru-metrika@yandex.ru'; // Замените на ваш электронный адрес
     $subject = 'Новая форма с вашего сайта';
     $name = $_POST['name'];
     $email = $_POST['email'];
