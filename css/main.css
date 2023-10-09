@@ -221,10 +221,15 @@ body.hide {
 
 .main .information {
   background: #F8FBFA;
+  height: 532px;
+}
+@media (max-width: 1560px) {
+  .main .information {
+    height: unset !important;
+  }
 }
 @media (max-width: 870px) {
   .main .information {
-    height: unset !important;
     padding-bottom: 15px;
   }
 }

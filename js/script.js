@@ -1,5 +1,3 @@
-const img = document.querySelector('.information_image')
-const information = document.querySelector('.information')
 const slideNumberAll = document.querySelector('.slide-number_all')
 
 document.querySelector('input[type=submit]').addEventListener('click', e => {
@@ -7,7 +5,6 @@ document.querySelector('input[type=submit]').addEventListener('click', e => {
 })
 
 document.addEventListener('DOMContentLoaded', e => {
-  information.style.height = img.offsetHeight + 'px'
   slideNumberAll.innerHTML = document.querySelectorAll('.slide').length
 })
 
