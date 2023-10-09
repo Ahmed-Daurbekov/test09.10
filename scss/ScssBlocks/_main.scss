@@ -1,9 +1,13 @@
 .main {
   .information {
     background: #F8FBFA;
+    height: 532px;
 
-    @media (max-width: 870px) {
+    @media (max-width: 1560px) {
       height: unset !important;
+    }
+    
+    @media (max-width: 870px) {
       padding-bottom: 15px;
     }
 
