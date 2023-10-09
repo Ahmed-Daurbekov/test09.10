@@ -52,7 +52,18 @@ burgerMenu.addEventListener('click', e => {
 // modal
 const modal = document.querySelector('.modal')
 const appointment = document.querySelector('.appointment')
+const makeAppointment = document.querySelector('.make-appointment')
 const closeModal = document.querySelector('.close')
+
+makeAppointment.addEventListener('click', () => {
+  modal.classList.add('active')
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: "smooth"
+  });
+  document.body.classList.add('hide')
+})
 
 appointment.addEventListener('click', () => {
   modal.classList.add('active')
